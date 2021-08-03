@@ -41,7 +41,7 @@ if __name__ == "__main__":
     centralLibray = Library(
         ["Algorithms", "Django", "Clrs", "Python Notes", "Java", "C++"])
     student = Student()
-    centralLibray.displayAvailabeBooks()
+
     while True:
         welcomeMsg = '''******Welcome to Central Library******
         Please choose an option:
