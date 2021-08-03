@@ -22,9 +22,8 @@ class Library:
             return False
 
     def returnBook(self, bookName):
-        self.append(bookName)
-        print(
-            f"Thanks for returning {self.bookName}. Hope you enjoyed reading it. Have a great day")
+        self.books.append(bookName)
+        print("Thanks for returning this book! Hope you enjoyed reading it. Have a great day ahead!")
 
 
 class Student:
